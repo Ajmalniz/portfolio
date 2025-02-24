@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ajmal Khan - AI Engineer & Full Stack Developer Portfolio
 
-## Getting Started
+![Portfolio Preview](public/HeadShot.png)
 
-First, run the development server:
+## About Me
+
+I'm an AI Engineer and Full Stack Developer specializing in Agentic AI development. With a strong foundation in computer engineering and a passion for artificial intelligence, I focus on building intelligent systems that push the boundaries of what's possible with AI.
+
+## 🤖 Expertise
+
+### AI & Machine Learning
+- Agentic AI Development (CrewAI, AutoGen, LangGraph)
+- Large Language Models (LLMs)
+- Vector & Graph Databases
+- AI-Powered Applications
+
+### Full Stack Development
+- Next.js & React
+- TypeScript & Python
+- Modern Web Technologies
+- API Development
+
+## 🎓 Certifications
+- Google Data Analytics Certification
+- Advanced Analytics Certification
+- Meta Front-End Development Professional Certification
+
+## 🚀 Current Focus
+I'm actively working on:
+- Building autonomous AI agents using advanced frameworks
+- Developing intelligent systems that combine AI with modern web technologies
+- Exploring the intersection of AI and web development
+- Creating innovative solutions using Vector and Graph Databases
+
+## 🛠️ Portfolio Website Features
+
+This portfolio is built with:
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS & Shadcn UI
+- **CMS**: Sanity.io
+- **Deployment**: Vercel
+- **Mode**: Dark/Light theme support
+- **Design**: Fully responsive and modern UI
+
+## 🔧 Local Development
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see the development version.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Connect With Me
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [LinkedIn](https://www.linkedin.com/in/ajmal-ai-engineer/)
+- [GitHub](https://github.com/Ajmalniz)
+- [Portfolio Website](https://your-portfolio-url.com)
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is open source and available under the [MIT License](LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Built with 💻 by Ajmal Khan

@@ -46,24 +46,49 @@ export default function Navbar() {
   </SheetTrigger>
   <SheetContent>
     <SheetHeader>
-      <ul className='text-lg font-medium gap-x-4'>
-        <li>
-          <Link href="/">Home </Link>
-        </li>
-        <li>
-          <Link href="/project">Projects</Link>
-        </li>
-        <li>
-            <Link href="/certification">Certifiction</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
-        
-      </ul>
+      <nav className="flex flex-col gap-6 mt-8">
+        <Link 
+          href="/" 
+          className="text-lg font-medium hover:text-teal-600 transition-colors"
+        >
+          Home
+        </Link>
+        <Link 
+          href="/project" 
+          className="text-lg font-medium hover:text-teal-600 transition-colors"
+        >
+          Projects
+        </Link>
+        <Link 
+          href="/certification" 
+          className="text-lg font-medium hover:text-teal-600 transition-colors"
+        >
+          Certifications
+        </Link>
+        <Link 
+          href="/about" 
+          className="text-lg font-medium hover:text-teal-600 transition-colors"
+        >
+          About
+        </Link>
+        <Link 
+          href="/contact" 
+          className="text-lg font-medium hover:text-teal-600 transition-colors"
+        >
+          Contact
+        </Link>
+      </nav>
+      <div className="flex items-center gap-4 mt-8">
+        <ModeToggle />
+        <div className="flex gap-4">
+          <a href="https://github.com/Ajmalniz" target="_blank">
+            <AiOutlineGithub size={24} />
+          </a>
+          <a href="https://www.linkedin.com/in/front-end-developer-headless-cms-ai-blockchain/" target="_blank">
+            <AiOutlineLinkedin size={24} />
+          </a>
+        </div>
+      </div>
     </SheetHeader>
   </SheetContent>
 </Sheet>

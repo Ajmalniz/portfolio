@@ -3,20 +3,32 @@ import Image from "next/image"
 import Link from "next/link"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
+  // Frontend
   { skill: "Next.js" },
+  { skill: "React" },
+  { skill: "TypeScript" },
+  { skill: "JavaScript" },
   { skill: "Tailwind CSS" },
+  { skill: "Shadcn UI" },
+  // AI & Data
+  { skill: "Generative AI" },
+  { skill: "Agentic AI" },
+  { skill: "CrewAI" },
+  { skill: "AutoGen" },
+  { skill: "LangGraph" },
+  { skill: "Data Analytics" },
+  // Databases
+  { skill: "Graph Databases" },
+  { skill: "Vector Databases" },
+  { skill: "SQL" },
+  { skill: "NoSQL" },
+  // Other
+  { skill: "Python" },
+  { skill: "C++" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-  { skill: "Headless CMS" },
-  { skill: "GenrativeAi" },
-  { skill: "Databases" },
+  { skill: "API Development" },
+  { skill: "Blockchain" },
+  { skill: "Sanity.io" },
 ]
 
 const AboutSection = () => {
@@ -34,34 +46,30 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Ajmal Khan and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Karachi, Pakistan.
+              Hi, my name is Ajmal Khan and I am an{" "}
+              <span className="font-bold">AI Engineer</span> and{" "}
+              <span className="font-bold">Full Stack Developer</span> specializing in{" "}
+              <span className="font-bold">Agentic AI</span> development.
             </p>
             <br />
             <p>
-              I graduated from COMSATS, Abbottabad in 2012
-              with a BS in Computer Engineering and at the start did not this filed but from July-2023 i m working in this field
+              I graduated with honors on a full scholarship from COMSATS, Abbottabad in 2012
+              with a BS in Computer Engineering. I'm currently focused on building intelligent
+              systems using advanced AI frameworks and modern web technologies.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing Cricket, traveling, to cocking ,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              My expertise lies in developing autonomous AI agents using frameworks like
+              CrewAI, AutoGen, and LangGraph. I combine these with Vector Databases and
+              Graph Databases to create intelligent, scalable solutions that push the
+              boundaries of what's possible with AI.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I hold Google Data Analytics & Advanced Analytics certifications and am
+              actively exploring the intersection of AI and web development. My goal is
+              to create innovative applications that leverage the power of AI to solve
+              complex problems.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -81,11 +89,45 @@ const AboutSection = () => {
             
           </div>
         </div>
+        <div className="mt-8">
+          <h1 className="text-2xl font-bold mb-6">Key Achievements</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+              <h3 className="font-semibold text-teal-600">Agentic AI Development</h3>
+              <p className="text-sm mt-2">Building advanced AI systems using CrewAI, AutoGen, and LangGraph frameworks for autonomous agent development</p>
+            </div>
+            <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+              <h3 className="font-semibold text-teal-600">AI Integration</h3>
+              <p className="text-sm mt-2">Implementing LLMs, Vector Databases, and Graph Databases for intelligent applications</p>
+            </div>
+            <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+              <h3 className="font-semibold text-teal-600">Full Stack AI Solutions</h3>
+              <p className="text-sm mt-2">Developing end-to-end applications combining AI capabilities with modern web technologies</p>
+            </div>
+            <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+              <h3 className="font-semibold text-teal-600">Data Analytics</h3>
+              <p className="text-sm mt-2">Advanced analytics and visualization using Google Analytics and business intelligence tools</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8">
+          <h1 className="text-2xl font-bold mb-6">Certifications</h1>
+          <div className="flex flex-col space-y-4">
+            <div className="flex flex-col">
+              <span className="font-semibold text-teal-600">Google Data Analytics</span>
+              <span className="text-sm text-gray-500">Advanced Analytics Certification</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-semibold text-teal-600">Meta Front-End Development</span>
+              <span className="text-sm text-gray-500">Professional Certification</span>
+            </div>
+          </div>
+        </div>
        <div className=" mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl py-6 flex justify-center"> 
         <Link href="/contact"  
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 "
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
              >
-            Contact Us
+            Let's Connect
             </Link>
       </div>
       </div>
