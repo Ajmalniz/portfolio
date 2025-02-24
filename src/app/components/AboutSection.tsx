@@ -54,7 +54,7 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated with honors on a full scholarship from COMSATS, Abbottabad in 2012
-              with a BS in Computer Engineering. I'm currently focused on building intelligent
+              with a BS in Computer Engineering. I&apos;m currently focused on building intelligent
               systems using advanced AI frameworks and modern web technologies.
             </p>
             <br />
@@ -62,7 +62,7 @@ const AboutSection = () => {
               My expertise lies in developing autonomous AI agents using frameworks like
               CrewAI, AutoGen, and LangGraph. I combine these with Vector Databases and
               Graph Databases to create intelligent, scalable solutions that push the
-              boundaries of what's possible with AI.
+              boundaries of what&apos;s possible with AI.
             </p>
             <br />
             <p>
