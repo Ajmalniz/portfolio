@@ -1,92 +1,57 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
+import React from "react";
+import Link from "next/link";
 
 const skills = [
   // Frontend
-  { skill: "Next.js" },
-  { skill: "React" },
-  { skill: "TypeScript" },
-  { skill: "JavaScript" },
-  { skill: "Tailwind CSS" },
-  { skill: "Shadcn UI" },
+  { skill: "Next.js" }, { skill: "React" }, { skill: "TypeScript" }, { skill: "JavaScript" },
+  { skill: "Tailwind CSS" }, { skill: "Shadcn UI" },
   // AI & Data
-  { skill: "Generative AI" },
-  { skill: "Agentic AI" },
-  { skill: "CrewAI" },
-  { skill: "AutoGen" },
-  { skill: "LangGraph" },
-  { skill: "Data Analytics" },
+  { skill: "Generative AI" }, { skill: "Agentic AI" }, { skill: "CrewAI" }, { skill: "AutoGen" },
+  { skill: "LangGraph" }, { skill: "Data Analytics" },
   // Databases
-  { skill: "Graph Databases" },
-  { skill: "Vector Databases" },
-  { skill: "SQL" },
-  { skill: "NoSQL" },
+  { skill: "Graph Databases" }, { skill: "Vector Databases" }, { skill: "SQL" }, { skill: "NoSQL" },
   // Other
-  { skill: "Python" },
-  { skill: "C++" },
-  { skill: "Git" },
-  { skill: "API Development" },
-  { skill: "Blockchain" },
-  { skill: "Sanity.io" },
-]
+  { skill: "Python" }, { skill: "C++" }, { skill: "Git" }, { skill: "API Development" },
+  { skill: "Blockchain" }, { skill: "Sanity.io" },
+];
 
 const AboutSection = () => {
   return (
-    <section className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+    <section className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
         </h1>
-
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-          <div className="md:w-1/2 ">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
-            </h1>
+          <div className="md:w-1/2">
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
             <p>
-              Hi, my name is Ajmal Khan and I am an{" "}
-              <span className="font-bold">AI Engineer</span> and{" "}
-              <span className="font-bold">Full Stack Developer</span> specializing in{" "}
-              <span className="font-bold">Agentic AI</span> development.
+              Hi, I’m Ajmal Khan, an <span className="font-bold">AI Engineer</span> and{" "}
+              <span className="font-bold">Full Stack Developer</span> driven by a passion for building intelligent, scalable solutions. 
+              I specialize in <span className="font-bold">Agentic AI</span>, leveraging frameworks like CrewAI, AutoGen, and LangGraph.
             </p>
             <br />
             <p>
-              I graduated with honors on a full scholarship from COMSATS, Abbottabad in 2012
-              with a BS in Computer Engineering. I&apos;m currently focused on building intelligent
-              systems using advanced AI frameworks and modern web technologies.
+              I graduated with honors from COMSATS, Abbottabad in 2012 with a BS in Computer Engineering on a full scholarship. 
+              I hold certifications in <span className="font-bold">Google Data Analytics</span> and{" "}
+              <span className="font-bold">Meta Front-End Development</span>, blending data insights with modern web tech.
             </p>
             <br />
             <p>
-              My expertise lies in developing autonomous AI agents using frameworks like
-              CrewAI, AutoGen, and LangGraph. I combine these with Vector Databases and
-              Graph Databases to create intelligent, scalable solutions that push the
-              boundaries of what&apos;s possible with AI.
-            </p>
-            <br />
-            <p>
-              I hold Google Data Analytics & Advanced Analytics certifications and am
-              actively exploring the intersection of AI and web development. My goal is
-              to create innovative applications that leverage the power of AI to solve
-              complex problems.
+              My expertise combines AI with Vector and Graph Databases to create impactful applications. 
+              I’m excited to push boundaries and solve complex problems with innovative tech.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
-                return (
-                  <p
-                    key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                  >
-                    {item.skill}
-                  </p>
-                )
-              })}
+              {skills.map((item, idx) => (
+                <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">
+                  {item.skill}
+                </p>
+              ))}
             </div>
-            
           </div>
         </div>
         <div className="mt-8">
@@ -131,8 +96,10 @@ const AboutSection = () => {
             </Link>
       </div>
       </div>
+        
+      
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
